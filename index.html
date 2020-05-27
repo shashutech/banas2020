@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sone Command Area</title>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Sone Command Area</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="adminbhojpur.html">Bhojpur</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="adminbuxar.html">Buxar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="adminkaimur.html">Kaimur</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="adminrohtas.html">Rohtas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-primary maps-nav-btn" href="maps.zip" download>Download Maps</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="jumbotron my-3">
+      <h1 class="display-4">SONE COMMAND AREA:-</h1>
+      <p class="lead">
+        Sone Command Area Development Authority was created on 1st November,
+        1973 for integrated all round development of the command particularly
+        for the purpose of increasing the utility of irrigation potential and
+        agricultural output. Thus some of the aims of Sane Command Area
+        Development Agency are maximum utilization of available water of Sane
+        canal system for increasing agriculture production, optimum
+        utilization of underground water, provision of drainage, maintenance
+        and regulation of distribution system, restoration of proper cRP
+        programme, production management and increasing production and
+        providing marketing facilities.
+      </p>
+      <hr class="my-4" />
+      <p>
+        In the beginning, only five districts of Patna and Magadh
+        divisionsnamely Patna, Bhojpur, Rohtas, Aurangabad and Gaya were kept
+        under Sone command Area. In the course when district of Gaya was
+        bifurcated and new district of Jahanabad was created, then the total
+        districts under this command rose to six. Later on Buxar district was
+        created out of Bhojpur and Bhabhua was carved out of Rohtas district
+        during reorganization of districts. Thus altogether eight districts
+        came under the area of this command and we are going to do mapping of
+        4 ditricts :- BHOJPUR, BUXAR, KAIMUR, ROHTAS
+      </p>
+    </div>
+  </div>
+
+  <div id="map"></div>
+
+  <!-- Scripts -->
+  <!-- Map Script -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap" async defer></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

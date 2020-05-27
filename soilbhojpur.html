@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bansathali Project</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Sone Command Area</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="adminbhojpur.html">Bhojpur</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="adminbuxar.html">Buxar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="adminkaimur.html">Kaimur</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="adminrohtas.html">Rohtas</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <h3 class="my-3 text-center">Bhojpur Soil View</h3>
+        <p>The district in general possesses alluvium soil. The soils are of poorly drained type. The area adjoining the
+            rivers Ganga, Sone, Dharmawati, and Gangi consists of sandy loam, loamy sand and sand, whereas, the area
+            away from the river channels consist of silty sand to sandy silt. The soils in general are fine textured
+            away from the river course and rivulets and coarse textured along their courses. The soils of coarse
+            textured have got mixed with silt and fine sand due to the mixing of canal water being used perennially for
+            irrigation.</p>
+
+        <!-- button section -->
+        <div class="map-button-section">
+            <a href="drainbhojpur.html" class="btn btn-primary">Drainage</a>
+            <a href="lakesbhojpur.html" class="btn btn-primary">Lakes</a>
+            <a href="landusebhojpur.html" class="btn btn-primary">Land Use</a>
+            <a href="orchardsbhojpur.html" class="btn btn-primary">Orchards</a>
+            <a href="satbhojpur.html" class="btn btn-primary">Satellite View</a>
+            <a href="adminbhojpur.html" class="btn btn-primary">Administration</a>
+        </div>
+
+        <div class="map-img-section">
+            <img src="./img/bhojpur/Soil_page-0001.jpg" alt="">
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <!-- Map Script -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap" async defer></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
